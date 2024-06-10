@@ -16,6 +16,7 @@ class MainScreen : AppCompatActivity() {
     private lateinit var afternoontEditText: EditText
     private lateinit var eveningtEditText: EditText
     private lateinit var averageTextView: TextView
+    // Declaring arrays
     private val day = ArrayList<String>()
     private val morningt = ArrayList<Int>()
     private val afternoont = ArrayList<Int>()
