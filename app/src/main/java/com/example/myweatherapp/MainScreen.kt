@@ -66,7 +66,9 @@ class MainScreen : AppCompatActivity() {
             day.enter(day)
             morningt.enter(morningt)
             afternoont.enter(afternoont)
-            eveningt.enter(eveningt)
+            if (eveningt != null) {
+                eveningt.enter(eveningt)
+            }
 
             dayEditText.text.clear()
             morningtEditText.text.clear()
@@ -96,4 +98,12 @@ class MainScreen : AppCompatActivity() {
         Toast.makeText(this, "Information cleared" , Toast.LENGTH_SHORT).show()
         finish()
     }
+}
+
+private fun Int.enter(morningt: Int) {
+    TODO("Not yet implemented")
+}
+
+private fun String.enter(day: String) {
+    TODO("Not yet implemented")
 }
