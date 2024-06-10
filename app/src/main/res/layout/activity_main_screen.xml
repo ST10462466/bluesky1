@@ -37,22 +37,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.835" />
 
-    <EditText
-        android:id="@+id/average"
-        android:layout_width="274dp"
-        android:layout_height="53dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Average :"
-        android:textAlignment="viewStart"
-        android:textColor="#ADCBD8"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/clear"
         android:layout_width="108dp"
@@ -69,7 +53,7 @@
         app:layout_constraintVertical_bias="0.644" />
 
     <Button
-        android:id="@+id/enter"
+        android:id="@+id/enter1"
         android:layout_width="111dp"
         android:layout_height="62dp"
         android:text="Enter"
@@ -150,5 +134,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.379" />
+
+    <TextView
+        android:id="@+id/average1"
+        android:layout_width="283dp"
+        android:layout_height="52dp"
+        android:text="Average"
+        android:textAlignment="viewStart"
+        android:textColor="#ADCBD8"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
